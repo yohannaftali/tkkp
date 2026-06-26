@@ -1,0 +1,59 @@
+/* TKKP Custom CSS */
+/* add this on 
+/* <link rel="stylesheet" type="text/css" href="https://tkkp.kaj.or.id/theme/tkkp/tkkp.css"> */
+form#responseform div.answer input + label,
+table.attempt-sheet-container div.answer input + label {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+label.multichoice-input.multichoice-input-unchecked {
+    color: #ca3120;
+    font-weight: bold;
+}
+
+table.attempt-sheet-container div.answer input:checked + label {
+    font-weight: bold;
+}
+
+table.attempt-sheet-container div.answer + div.outcome {
+    display: none;
+}
+
+form#responseform span.subquestion.form-inline.d-inline > input[type=text].form-control,
+table.attempt-sheet-container span.subquestion.form-inline.d-inline > input[type=text] {
+    width: 100%;
+}
+
+form#responseform span.subquestion.form-inline.d-inline > input[type=text] + i,
+table.attempt-sheet-container span.subquestion.form-inline.d-inline > input[type=text] + i {
+    display: none;
+}
+
+#page-mod-quiz-report-answersheets-attemptsheet div.attempt-sheet-header-gecko {
+    display: none;
+}
+
+#page-mod-quiz-report-answersheets-attemptsheet #page-navbar {
+    display: none;
+}
+
+#page-mod-quiz-report-answersheets-attemptsheet .question-instruction {
+    display: none;
+}
+
+form#responseform  div.qtype_essay_editorfilepicker,
+table.attempt-sheet-container div.qtype_essay_editorfilepicker {
+    display: none;
+}
+
+
+
+/* home */
+body:not(.editing) #page div.secondary-navigation {
+    display: none; 
+}
+
+body.editing #page .secondarynavigation {
+    display: block; 
+}

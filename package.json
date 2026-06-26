@@ -1,0 +1,13 @@
+{
+  "name": "theme-tkkp-tasks",
+  "version": "0.0.1",
+  "description": "Grunt tasks for Moodle TKKP theme.",
+  "main": "Gruntfile.js",
+  "author": {
+    "name": "Yohan Naftali",
+    "url": "https://www.yohanli.com"
+  },
+  "devDependencies": {
+  },
+  "license": "GPL-3.0+"
+}

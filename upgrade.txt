@@ -1,0 +1,5 @@
+This files describes API changes in TKKP theme,
+information provided here is intended especially for everyone.
+
+=== 0.0.1 ===
+* Initial Relase
